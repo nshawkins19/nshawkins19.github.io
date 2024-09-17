@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Javascript Calculator</title>
+  </head>
+  <body>
+    <p> id="demo"</p>
+    <script>
+
+        //vars
+        let num1 = prompt("Enter in the first number");
+        let num2 = prompt("Enter in the first number");
+
+        //Mathematical Functions: addition, subtraction, multiplication, division, modulus
+      function add(num1, num2) { 
+        sum = num1 + num2;
+        return sum;
+      }
+
+      function subtract(num1, num2) {
+        diff = num1 - num2;
+        return diff;
+      }
+
+      function mult (num1, num2){
+        product = num1 * num2;
+        return product;
+      }
+
+      function div (num1, num2){
+        quotient = num1/num2;
+        return quotient;
+      }
+
+      function mod(num1, num2){
+        modResult = num1 % num2;
+        return modResult;
+      }
+
+      function min(){
+        return Math.min(sum,diff,product,quotient,modResult);
+      }
+
+    </script>
+  </body>
+</html>
